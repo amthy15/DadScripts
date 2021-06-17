@@ -9,7 +9,7 @@ def flip_flag(filepath: str, filename: str, flag: str):
     xml_tree.write(f'{filepath}/{filename.rsplit( ".", 1 )[ 0 ]}_new.xml')
 
 
-filename = sys.argv[1]
-filepath = sys.argv[2]
+filepath = sys.argv[1]
+filename = sys.argv[2]
 flagname = sys.argv[3]
 flip_flag(filepath, filename, flagname)
